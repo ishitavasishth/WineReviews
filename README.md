@@ -61,6 +61,11 @@ CREATE TABLE wine (
 
 -- Increase the description column size for longer texts
 ALTER TABLE wine
+ALTER COLUMN description TYPE VARCHAR(1000);
+
+-- Convert description to TEXT for better storage of long descriptions
+ALTER TABLE wine
 ALTER COLUMN description TYPE TEXT;
+
 
 
