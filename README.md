@@ -36,5 +36,31 @@ How can product diversification be optimized to increase profitability?
 By leveraging SQL-based insights, this analysis supports data-driven decision-making in the wine industry. It provides strategies to increase profit margins, optimize product offerings, and target high-value customers, ultimately driving sustainable business growth.
 
 
+1. Data Cleaning and Importing
+
+-- Convert the price column to FLOAT for numerical analysis
+ALTER TABLE wine
+ALTER COLUMN price TYPE FLOAT;
+
+-- Drop the existing table if it exists to avoid conflicts
+DROP TABLE IF EXISTS wine;
+
+-- Create the wine table with appropriate data types
+CREATE TABLE wine (
+    country VARCHAR(50),
+    description VARCHAR(500),
+    designation VARCHAR(100),
+    points INT,
+    price FLOAT,
+    province VARCHAR(400),
+    region_1 VARCHAR(50),
+    region_2 VARCHAR(50),
+    variety VARCHAR(100),
+    winery VARCHAR(100)
+);
+
+-- Increase the description column size for longer texts
+ALTER TABLE wine
+ALTER COLUMN description TYPE TEXT;
 
 
