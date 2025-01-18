@@ -3,7 +3,7 @@
 📊 **Project Overview**
 This project focuses on performing a comprehensive analysis of wine data to uncover actionable insights that can maximize profits and identify high-performing customers. Using SQL for data manipulation and querying, this project explores trends in wine pricing, customer preferences, and product performance to guide strategic business decisions.
 
-🎯** Objectives**
+🎯 **Objectives**
 Increase Profitability: Identify the best-performing wines, regions, and wineries to optimize sales strategies.
 Customer Segmentation: Discover high-value customer segments to enable personalized marketing and upselling opportunities.
 Data-Driven Insights: Analyze wine ratings, pricing strategies, and production trends to support growth initiatives.
