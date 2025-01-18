@@ -217,6 +217,9 @@ ORDER BY rank;
 
 5.**Key Insights**
 Top-Selling Wine Variety: Chardonnay is the most sold and highly rated variety.
+
 Top Producing Province: California leads wine production.
+
 Premium Pricing Potential: Pompeiano shows potential for premium pricing despite lower ratings.
+
 Upselling Opportunities: Château Latour leads in upselling potential due to product variety and pricing.
